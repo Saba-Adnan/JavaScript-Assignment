@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaSCript Assignment (Variables for Numbers)</title>
+</head>
+<body>
+    <h1 id="visitMessage"></h1>
+    <script>
+        // Declaring a variable called age and assign it your age
+        var age = 15;
+
+        // Created the message using string concatenation
+        var message = "I am " + age + " years old";
+
+        // Display the message in an alert box
+        alert(message);
+
+        // Increment visit count by 1
+        var visitCount = (parseInt(localStorage.getItem("visitCount")) || 0) + 1;
+        
+        // Store the updated visit count in localStorage
+        localStorage.setItem("visitCount", visitCount);
+
+        // Display the message
+        document.getElementById('visitMessage').innerText = "You have visited this site " + visitCount + " times";
+
+        
+        // Increment visit count by 1
+        var visitCount = (parseInt(localStorage.getItem("visitCount")) || 0) + 1;
+        
+        // Store the updated visit count in localStorage
+        localStorage.setItem("visitCount", visitCount);
+
+        // Display the message
+        document.getElementById('visitMessage').innerText = "You have visited this site " + visitCount + " times";
+
+        // Declare and initialize the birthYear variable
+        var birthYear = 1990;
+
+        // Display the message in the browser
+        document.write("My birth year is " + birthYear + ".<br>");
+        document.write(" Data type of my declared variable is " + typeof(birthYear) + ". " );
+
+
+        // Declare variables to store visitor's information
+        var visitorName = "John Doe";
+        var productTitle = "T-shirt";
+        var quantity = 5;
+
+        // Display the message in the browser
+        document.write(visitorName + " ordered " + quantity + " " + productTitle + "(s) on XYZ Clothing store.");
+
+    </script>
+</body>
+</html>
+
+
+    
+        
+    </script>
+</body>
+</html>
